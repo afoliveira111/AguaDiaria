@@ -32,6 +32,7 @@
         android:text="@string/small"
         app:layout_constraintTop_toBottomOf="@+id/divider"
         android:layout_width="wrap_content"
+        app:icon="@drawable/icon_water"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="20sp"
         android:layout_height="wrap_content" />
