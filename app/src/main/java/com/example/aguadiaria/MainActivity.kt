@@ -11,16 +11,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         findViewById<Button>(R.id.btn_small).setOnClickListener {
-
+            saveGlass(GlassType.SMALL)
         }
         findViewById<Button>(R.id.btn_medium).setOnClickListener {
+            saveGlass(GlassType.MEDIUM)
 
         }
         findViewById<Button>(R.id.btn_large).setOnClickListener {
+            saveGlass(GlassType.LARGE)
 
         }
     }
-    private fun saveGlass() {
+    private fun saveGlass(glassType: GlassType) {
 
     }
 }
