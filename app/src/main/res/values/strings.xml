@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AguaDiaria</string>
+    <string name="tips">Toque no botãao abaixo de acordo com a quantidade de ml consumida</string>
 </resources>
