@@ -2,4 +2,7 @@
     <string name="app_name">AguaDiaria</string>
     <string name="tips">Toque no botãao abaixo de acordo com a quantidade de ml consumida</string>
     <string name="small">200ml</string>
+    <string name="medium">250ml</string>
+    <string name="large">500ml</string>
+    <string name="today">Hoje</string>
 </resources>
