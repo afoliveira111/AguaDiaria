@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
 
     private val prefs = GlassPreferences(this)
 
-    var today: Int = 0
+    private var today: Int = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
