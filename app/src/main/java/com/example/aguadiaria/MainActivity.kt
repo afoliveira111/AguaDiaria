@@ -44,6 +44,6 @@ class MainActivity : AppCompatActivity() {
     private  fun refresh() {
         val value = prefs.fetch()
         today = value
-        findViewById<TextView>(R.id.txt_result).text = today.toString()
+        findViewById<TextView>(R.id.txt_result).text = getString(R.string.result, today)
     }
 }

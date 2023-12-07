@@ -6,4 +6,5 @@
     <string name="large">500ml</string>
     <string name="today">Hoje</string>
     <string name="undo">Refazer</string>
+    <string name="result">%1$d ml</string>
 </resources>
