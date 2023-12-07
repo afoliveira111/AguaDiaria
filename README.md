@@ -9,7 +9,7 @@
 <img src="/result/Screenshot_1.png" width="260">&emsp;<img src="/result/Screenshot_2.png" width="260">&emsp;<img src="/result/Screenshot_3.png" width="260"><img 
 
 
-# Tecnologias Utilizadas
+# Tecnologias Utilizadas:
 
 * Snackbar: Esse componente fornece uma notificação leve e temporária para feedback do usuário.
 * Recursos de string: O aplicativo usa recursos de string para o texto exibido em vários elementos da interface do usuário, permitindo uma localização e personalização fáceis.
@@ -39,7 +39,7 @@ Ela define os tipos de copos disponíveis para o usuário. Cada tipo tem um valo
 
  # TODO
 
-* Melhorar a estilização do aplicativo.
+* Melhorar a estilização do aplicativo
   
 * Outras funcionalidades
 
