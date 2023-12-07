@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
 
@@ -24,11 +25,16 @@ class MainActivity : AppCompatActivity() {
         }
         findViewById<Button>(R.id.btn_large).setOnClickListener {
             saveGlass(GlassType.LARGE)
-
         }
+
+        refresh()
     }
     private fun saveGlass(glassType: GlassType) {
             prefs.save(today + glassType.value)
+
+            Snackbar.make(findViewById(android.R.id.content))
+
+            refresh()
     }
     private  fun refresh() {
         val value = prefs.fetch()
