@@ -1,4 +1,4 @@
-# AguaDiaria
+# Agua Diaria
  "Aguadiaria". Este aplicativo Android foi desenvolvido para acompanhar o consumo diário de água, proporcionando uma experiência intuitiva e interativa. Abaixo estão os principais detalhes sobre as tecnologias, arquiteturas e recursos utilizados no desenvolvimento.
 
 
