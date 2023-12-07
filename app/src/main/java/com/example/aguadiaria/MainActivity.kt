@@ -32,7 +32,11 @@ class MainActivity : AppCompatActivity() {
     private fun saveGlass(glassType: GlassType) {
             prefs.save(today + glassType.value)
 
-            Snackbar.make(findViewById(android.R.id.content), R.string.undo, Snackbar.LENGTH_INDEFINITE)
+            Snackbar.make(findViewById(android.R.id.content), R.string.undo, Snackbar.LENGTH_LONG)
+                .setAction(android.R.string.ok) {
+                    prefs.save(today - glassType.value)
+                    refresh()
+                }
                 .show()
 
             refresh()
