@@ -3,6 +3,7 @@ package com.example.aguadiaria
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
@@ -28,5 +29,10 @@ class MainActivity : AppCompatActivity() {
     }
     private fun saveGlass(glassType: GlassType) {
             prefs.save(today + glassType.value)
+    }
+    private  fun refresh() {
+        val value = prefs.fetch()
+        today = value
+        findViewById<TextView>(R.id.txt_result).text = today.toString()
     }
 }

@@ -10,7 +10,7 @@ class GlassPreferences(private val context: Context) {
 
         companion object {
             const val PREFS_NAME = "com.example.aguadiaria.preferences"
-            const val PREFS_PREFIX = "key "
+            const val PREFS_PREFIX = "key_ "
         }
 
         private  val sdf = SimpleDateFormat("ddMMyyyy", Locale.US)
@@ -21,4 +21,8 @@ class GlassPreferences(private val context: Context) {
 
       }
    }
+
+    fun fetch() = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+           .getInt(PREFS_PREFIX + sdf.format(Date()), 0)
+
 }
