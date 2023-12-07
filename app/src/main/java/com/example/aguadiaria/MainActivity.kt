@@ -6,6 +6,10 @@ import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
 
+    private val prefs = GlassPreferences(this)
+
+    var today: Int = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -23,6 +27,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
     private fun saveGlass(glassType: GlassType) {
-
+            prefs.save(today + glassType.value)
     }
 }
