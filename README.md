@@ -41,7 +41,7 @@ Ela define os tipos de copos disponíveis para o usuário. Cada tipo tem um valo
 
 * Melhorar a estilização do aplicativo.
   
-* Melhorar o visual
+* Outras funcionalidades
 
 ## Autor
 
