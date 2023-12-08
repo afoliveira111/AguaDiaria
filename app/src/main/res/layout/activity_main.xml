@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textSize="20sp"
         android:paddingHorizontal="30dp"
         android:text="@string/tips"
         android:textAlignment="center"
